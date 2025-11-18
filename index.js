@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
   if (req.url === '/') {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello, World\n');
+    res.end('Hello, Worlds\n');
   }
 
   // NEW ROUTE: /about
